@@ -1,5 +1,12 @@
 import React from 'react';
 
+import LoremIpsum from './LoremIpsum';
+
 export default () => {
-  return <div>TODO</div>;
+  return (
+    <div>
+      TODO
+      <LoremIpsum />
+    </div>
+  );
 };
